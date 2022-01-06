@@ -1,7 +1,6 @@
 import React from "react";
 import home1 from "../img/home1.png";
 //Styled
-import styled from "styled-components";
 import { Layout, Description, Image, Hide } from "../styles";
 //Animations
 import { motion } from "framer-motion";

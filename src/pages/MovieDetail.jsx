@@ -10,7 +10,8 @@ const MovieDetail = () => {
   const location = useLocation();
   console.log(location);
   const url = location.pathname;
-  const [movies, setMovies] = useState(MovieState);
+  //eslint-disable
+  const [movies, setMovies] = useState(MovieState); // eslint-disable-line no-use-before-define
   const [movie, setMovie] = useState(null);
 
   //UseEffect
